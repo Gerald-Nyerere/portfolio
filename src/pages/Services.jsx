@@ -227,6 +227,7 @@ const Services = () => {
       {/* Floating Hire Me Button */}
       <motion.a
         href="/contact"
+        rel="noopener noreferrer"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
         className="fixed bottom-8 right-8 z-50 px-6 py-4 rounded-full text-lg font-semibold
