@@ -88,7 +88,6 @@ const Home = () => {
             <motion.div whileHover={{ scale: 1.05 }}>
               <Link
                 to="/projects"
-                target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block bg-purple-600 hover:bg-purple-800 text-white px-6 py-3 rounded-lg shadow-lg transition"
               >
