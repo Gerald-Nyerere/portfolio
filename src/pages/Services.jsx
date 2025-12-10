@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import {
   FaLaptopCode,
   FaMobileAlt,
@@ -225,9 +226,7 @@ const Services = () => {
       </div>
 
       {/* Floating Hire Me Button */}
-      <motion.a
-        href="/contact"
-        rel="noopener noreferrer"
+      <motion.div
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
         className="fixed bottom-8 right-8 z-50 px-6 py-4 rounded-full text-lg font-semibold
@@ -235,8 +234,8 @@ const Services = () => {
                    text-white shadow-lg shadow-purple-500/40
                    hover:shadow-purple-500/60 transition-all duration-300"
       >
-        Hire Me
-      </motion.a>
+        <Link to="/contact" className="block w-full text-center">Hire Me</Link>
+      </motion.div>
     </div>
   );
 };
