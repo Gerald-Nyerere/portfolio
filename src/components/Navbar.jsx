@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const navLinks = ["Home", "About", "Projects", "Certifications", "Contact"];
+  const navLinks = ["Home", "About", "Services", "Projects", "Certifications", "Contact"];
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (

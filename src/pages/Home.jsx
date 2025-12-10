@@ -8,6 +8,7 @@ import Contact from "./Contact";
 import portfolioImg from "../assets/portfolio.png";
 import ecommerceImg from "../assets/ecommerce.png";
 import studentResultImg from "../assets/studentresult.png";
+import Services from "./Services";
 
 const Home = () => {
   // my projects data
@@ -125,6 +126,11 @@ const Home = () => {
             ))}
           </div>
         </motion.section>
+
+        {/* Services Section */}
+        <div className="mt-20">
+          <Services />
+        </div>
 
         {/* Other Sections */}
         <motion.div
