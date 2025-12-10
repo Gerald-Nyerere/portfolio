@@ -202,7 +202,7 @@ const ProjectDetail = () => {
             viewport={{ once: true }}
           >
             <Link
-              to="/projects" target="_blank" rel="noopener noreferrer"
+              to="/projects" rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors text-lg"
             >
               ← Back to Projects

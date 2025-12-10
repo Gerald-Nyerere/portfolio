@@ -101,7 +101,7 @@ const Projects = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="transform transition hover:scale-105 hover:shadow-purple-500/30"
             >
-              <Link target="_blank" rel="noopener noreferrer" to={`/projects/${project.id}`}>
+              <Link rel="noopener noreferrer" to={`/projects/${project.id}`}>
                 <ProjectCard project={project} />
               </Link>
             </motion.div>
